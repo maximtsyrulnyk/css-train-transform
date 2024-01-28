@@ -1,95 +1,226 @@
 .task1 {
+  transition: transform 1s ease; /* тривалість трансформації 1 секунда з прискоренням переходу */
 }
 
 .task1:hover {
+  transform: rotate(
+    270deg
+  ); /* розвернення на 270 градусів при наведенні */
+}
+.task1 .wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 .task2 {
+  transition: transform 1s linear; /* тривалість трансформації 1 секунда з лінійним переходом */
+}
+.task2 .wrapper {
+  position: relative;
+  overflow: hidden;
 }
 
 .task2:hover {
+  transform: rotateX(
+    135deg
+  ); /* розвернення на 135 градусів навколо горизонтальної осі при наведенні */
 }
 
+.task3 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task3 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда з прискоренням на початку і сповільненням в кінці */
 }
-
 .task3:hover {
+  transform: rotateY(
+    45deg
+  ); /* розвернення на 45 градусів навколо вертикальної осі при наведенні */
 }
 
+.task4 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task4 {
+  transition: transform 1s linear; /* тривалість трансформації 1 секунда з лінійним переходом */
 }
-
 .task4:hover {
+  transform: scale(
+    1.3
+  ); /* збільшення масштабу в 1.3 рази при наведенні */
 }
 
+.task5 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task5 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда зі сповільненням переходу */
 }
-
 .task5:hover {
+  transform: scaleX(
+    1.5
+  ); /* збільшення масштабу в 1.5 рази в горизонтальному напрямку при наведенні */
 }
-
+.task6 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task6 {
+  transition: transform 1s ease; /* тривалість трансформації 1 секунда з прискоренням переходу */
 }
 
 .task6:hover {
+  transform: scaleY(
+    0.5
+  ); /* зменшення масштабу в 2 рази в вертикальному напрямку при наведенні */
 }
-
+.task7 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task7 {
+  transition: transform 1s ease;
 }
 
 .task7:hover {
+  transform: rotate(30deg);
 }
-
+.task8 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task8 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда з прискоренням на початку і сповільненням в кінці */
 }
 
 .task8:hover {
+  transform: skewX(
+    25deg
+  ); /* задання кута нахилу по горизонталі на 25 градусів при наведенні */
 }
 
 .task9 {
+  transition: transform 1s ease; /* тривалість трансформації 1 секунда з прискоренням переходу */
 }
 
 .task9:hover {
+  transform: skewY(
+    20deg
+  ); /* задання кута нахилу по вертикалі на 20 градусів при наведенні */
 }
-
+.task9 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.task10 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task10 {
+  transition: transform 1s ease; /* тривалість трансформації 1 секунда з прискоренням переходу */
 }
 
 .task10:hover {
+  transform: translate(
+    60px,
+    40px
+  ); /* зсув по горизонталі на 60px і по вертикалі на 40px при наведенні */
 }
-
+.task11 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task11 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда зі сповільненням переходу */
 }
 
 .task11:hover {
+  transform: translateX(
+    50px
+  ); /* зсув по горизонталі на 50px при наведенні */
 }
-
+.task12 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task12 {
+  transition: transform 1s linear; /* тривалість трансформації 1 секунда з лінійним переходом */
 }
 
 .task12:hover {
+  transform: translateY(
+    30px
+  ); /* зсув по вертикалі на 30px при наведенні */
 }
-
+.task13 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task13 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда з прискоренням на початку і сповільненням в кінці */
 }
 
 .task13:hover {
+  transform: translate3d(20px, 20px, 20px)
+    rotate3d(2, 2, 2, 90deg); /* зсув та поворот при наведенні */
 }
-
+.task14 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task14 {
+  transition: transform 1s ease; /* тривалість трансформації 1 секунда з прискоренням переходу */
 }
 
 .task14:hover {
+  transform: translateZ(40px) rotate3d(2, 3, 3, 45deg); /* зсув по осі Z та поворот при наведенні */
 }
 
+.task15 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task15 {
+  transition: transform 1s ease-in-out; /* тривалість трансформації 1 секунда зі сповільненням переходу */
 }
-
 .task15:hover {
+  transform: matrix(
+    0.4,
+    1.1,
+    -1.1,
+    0.4,
+    1,
+    1
+  ); /* застосування матриці при наведенні */
 }
-
+.task16 .wrapper {
+  position: relative;
+  overflow: hidden;
+}
 .task16 {
+  transition: transform 0.5s linear; /* тривалість трансформації 0.5 секунд з лінійним переходом */
 }
 
 .task16:hover {
+  transform: matrix3d(
+    0.5,
+    0,
+    -0.866025,
+    0,
+    0.595877,
+    1.2,
+    -1.03209,
+    0,
+    0.866025,
+    0,
+    0.5,
+    0,
+    25.9808,
+    0,
+    15,
+    1
+  ); /* застосування матриці при наведенні */
 }
